@@ -1,3 +1,7 @@
+![GitHub release](https://img.shields.io/github/v/release/USERNAME/REPO)
+![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO)
+![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO)
+
 # vless-vmess-ss-checker
 Lightweight Python tool to validate and sort proxy keys by availability and latency.
 # Proxy Key Checker
@@ -110,6 +114,25 @@ proxy-key-checker/
 ## Лицензия
 
 MIT License
+## Roadmap
+
+### v1.1
+- Добавление аргументов командной строки (argparse)
+- Разделение результатов по протоколам
+- Отдельные файлы вывода для good / normal / weak
+- Опциональное отключение TLS-проверки
+- Улучшенная обработка ошибок
+
+### v1.2
+- Экспорт в форматы популярных клиентов
+- Поддержка массовой проверки через список доменов
+- Оптимизация скорости проверки
+
+### v2.0
+- Модульная архитектура
+- Плагинная система проверок
+- Конфигурация через YAML
+
 
 ---
 
